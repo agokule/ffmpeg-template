@@ -3,7 +3,6 @@
   "configurePresets": [
     {
       "name": "vcpkg",
-      "generator": "Ninja",
       "binaryDir": "${sourceDir}/build",
       "toolchainFile": "./dependencies/vcpkg/scripts/buildsystems/vcpkg.cmake"
     }
