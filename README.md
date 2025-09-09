@@ -5,13 +5,16 @@ A practical starter to build C++ applications with FFmpeg using CMake.
 ## Why this exists
 
 Linking FFmpeg correctly (headers, libraries, and link order) can be tricky
-across platforms and toolchains. This template shows a straightforward CMake
-setup and a tiny example so you can focus on writing your media code, not your
-build system.
+across platforms and toolchains (I am saying this from experience). This
+template shows a straightforward CMake setup and a tiny example so you can
+focus on writing your media code, not your build system.
 
 ## Prerequisites
 
 - nasm (install on Ubuntu with `sudo apt-get install nasm`)
+- CMake
+- a build system (like make or ninja)
+- a c and c++ compiler
 
 ## Start
 
@@ -63,5 +66,5 @@ platform quirks and better discovery of FFmpeg on different systems.
 ---
 
 Again, this repo exists purely to help people start developing with FFmpeg.
-Copy it, tweak it, and build something awesome.
+Feel free to copy it, tweak it, and build something awesome!
 
